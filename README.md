@@ -43,22 +43,45 @@ Make sure you have **Python 3.x** installed. Install the required libraries usin
 ```bash
 pip install pandas openpyxl matplotlib seaborn
 ```
-## Running the Notebook
-
-### Clone the Repository:
+## Option 1: Run Locally
+### 1. ***Clone the Repository:***
 ```bash
 git clone https://github.com/AyushSoni14/CS384-Attendance-Tracker.git
 cd CS384-Attendance-Tracker
 ```
-### Place input files (stud_list.txt, dates.txt, input_attendance.csv) in the project directory.
-### Open and Run the Notebook
-Use the following command to open the Jupyter Notebook:
+### 2. ***Place Input Files:***
+Add the following files in the project directory:
+- stud_list.txt
+- dates.txt
+- input_attendance.csv
+### 3. ***Open the Notebook***
 ```bash
 jupyter notebook Mid_Sem_Mini_Project.ipynb
 ```
-### Check the outputs:
+### 4. ***Check the outputs:***
 - output_attendance.csv: Intermediate output.
 - styled_attendance.xlsx: Final report with highlighted attendance status.
+## Option 2: Run on Google Colab
+### 1. ***Open the Colab Notebook***
+- Go to Google Colab.
+- Upload Mid_Sem_Mini_Project.ipynb from the repository to Colab.
+### 2. ***Upload Input Files to Colab***
+Upload the following files into your Colab session:
+- stud_list.txt
+- dates.txt
+- input_attendance.csv
+### 3. ***Install Required Libraries in Colab: Run the following command in a Colab cell:***
+``` bash
+!pip install pandas openpyxl matplotlib seaborn
+```
+### 4. ***Run the Notebook Cells***
+- Execute all the cells in the notebook.
+- Ensure that the input files are properly uploaded to your session.
+### Download the Output Files:
+- After running, download:
+  - output_attendance.csv
+  - styled_attendance.xlsx
+
 ## 📄 Input File Formats
 
 ### 1. **stud_list.txt**
