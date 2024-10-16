@@ -43,7 +43,7 @@ Make sure you have **Python 3.x** installed. Install the required libraries usin
 ```bash
 pip install pandas openpyxl matplotlib seaborn
 ```
-## Running the Script
+## Running the Notebook
 
 ### Clone the Repository:
 ```bash
@@ -51,9 +51,10 @@ git clone https://github.com/AyushSoni14/CS384-Attendance-Tracker.git
 cd CS384-Attendance-Tracker
 ```
 ### Place input files (stud_list.txt, dates.txt, input_attendance.csv) in the project directory.
-### Run the Python script:
+### Open and Run the Notebook
+Use the following command to open the Jupyter Notebook:
 ```bash
-python attendance_script.py
+jupyter notebook Mid_Sem_Mini_Project.ipynb
 ```
 ### Check the outputs:
 - output_attendance.csv: Intermediate output.
