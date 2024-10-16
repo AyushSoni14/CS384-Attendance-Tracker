@@ -79,5 +79,21 @@ Timestamp,Roll
 06/08/2024 18:18:26,2201CB19 Chhavi Bamoriya
 06/08/2024 18:18:28,2201CE31 Mayank Kumar
 06/08/2024 18:18:31,2201CB35 Nakka Supraja
-
 ```
+## 📊 Output Excel File
+The generated styled_attendance.xlsx contains:
+- Roll Number and Name
+- Attendance for Each Date within the 6-8 PM window.
+- False Attendance Count
+- Total Attendance Marked
+- Extra Attendance Detected
+- Net Attendance Percentage
+## 📅 Lecture Details
+- **Time:** Every Tuesday, 6:00 PM - 8:00 PM
+- **Attendance Tracking:** Two consecutive lectures, allowing two attendance entries per student per session.
+
+## 🧑‍💻 Code Highlights
+- **Reading Input Files:** Uses pandas for handling CSV and text files.
+- **Timestamp Validation:** Checks if attendance falls between 6-8 PM.
+- **False Attendance Detection:** Marks attendance outside allowed hours.
+- **Excel Styling:** Uses pandas and openpyxl to color-code attendance status.
