@@ -77,7 +77,7 @@ Upload the following files into your Colab session:
 ### 4. ***Run the Notebook Cells***
 - Execute all the cells in the notebook.
 - Ensure that the input files are properly uploaded to your session.
-### Download the Output Files:
+### 5. ***Download the Output Files:***
 - After running, download:
   - output_attendance.csv
   - styled_attendance.xlsx
